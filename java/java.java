@@ -14,6 +14,5 @@ public class snake
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
 
 
-
     }
 }
