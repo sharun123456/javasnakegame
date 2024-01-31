@@ -1,5 +1,5 @@
 import javax.swing.*;
-public class snake
+public class SnakeGame
 {
     public static void main(String[] args)
     {
@@ -12,6 +12,12 @@ public class snake
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
+        snakegame snakegames = new snakegame(boardwidth,boardheight);
+        frame.add(snakegames);
+        frame.pack();
+        snakegames.requestFocus();
+
+
 
 
     }
